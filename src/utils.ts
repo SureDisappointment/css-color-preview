@@ -61,7 +61,7 @@ export function calculateRange(
 
 export function getAdditionalFilePatterns(): string[] {
     return vscode.workspace
-        .getConfiguration("oklchPreview")
+        .getConfiguration("cssColorPreview")
         .get("additionalFilePatterns", []);
 }
 

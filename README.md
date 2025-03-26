@@ -1,14 +1,14 @@
 <h1 align="center">
-  <img src="./assets/icon.png" alt="OKLCH Preview" height="128" />
+  <img src="./assets/icon.png" alt="CSS Color Preview" height="128" />
 </h1>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=nize.oklch-preview"><img src="https://vsmarketplacebadges.dev/version-short/nize.oklch-preview.svg" alt="version" /></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=nize.oklch-preview"><img src="https://vsmarketplacebadges.dev/downloads-short/nize.oklch-preview.svg" alt="downloads" /></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=luie.css-color-preview"><img src="https://vsmarketplacebadges.dev/version-short/luie.css-color-preview.svg" alt="version" /></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=luie.css-color-preview"><img src="https://vsmarketplacebadges.dev/downloads-short/luie.css-color-preview.svg" alt="downloads" /></a>
 </p>
 
 <p align="center">
-  Preview OKLCH colors for CSS files in Visual Studio Code.
+  Preview colors for CSS files in Visual Studio Code.
 </p>
 
 <p align="center">
@@ -17,12 +17,12 @@
 
 ## Custom File Patterns
 
-By default, OKLCH Preview works with standard CSS files (css, scss, sass, less, postcss).
+By default, Color Preview works with standard CSS files (css, scss, sass, less, postcss).
 
 You can configure the extension to support additional file patterns, such as CSS-in-JS files:
 
 ```json
-"oklchPreview.additionalFilePatterns": [
+"cssColorPreview.additionalFilePatterns": [
   "**/*.css.ts",
   "**/*.styles.ts",
   "**/*.styled.tsx"
@@ -31,7 +31,7 @@ You can configure the extension to support additional file patterns, such as CSS
 
 ## Acknowledgements:
 
-- [HSL Preview](https://github.com/13ruceYu/hsl-preview) by 13ruceYu, which inspired this extension.
+- [OKLCH Preview](https://github.com/dotnize/oklch-preview) by dotnize, which this extension was forked from.
 
 ## License
 

@@ -1,17 +1,17 @@
 {
-  "name": "oklch-preview",
-  "publisher": "nize",
-  "displayName": "OKLCH Color Preview",
-  "description": "Preview OKLCH colors for CSS files.",
+  "name": "css-color-preview",
+  "publisher": "luie",
+  "displayName": "CSS Color Preview",
+  "description": "Preview colors for CSS files.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dotnize/oklch-preview"
+    "url": "https://github.com/SureDisappointment/css-color-preview"
   },
-  "homepage": "https://github.com/dotnize/oklch-preview#readme",
+  "homepage": "https://github.com/SureDisappointment/css-color-preview#readme",
   "icon": "./assets/icon.png",
-  "author": "Nathaniel Tampus <nate@mugnavo.com>",
+  "author": "Luca Schneider <dev.schneider@proton.me>",
   "license": "MIT",
-  "version": "0.4.0",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -23,15 +23,15 @@
   ],
   "contributes": {
     "configuration": {
-      "title": "OKLCH Color Preview",
+      "title": "CSS Color Preview",
       "properties": {
-        "oklchPreview.additionalFilePatterns": {
+        "cssColorPreview.additionalFilePatterns": {
           "type": "array",
           "default": [],
           "items": {
             "type": "string"
           },
-          "description": "Additional file patterns to apply OKLCH preview to (e.g., *.css.ts)"
+          "description": "Additional file patterns to apply color preview to (e.g., *.css.ts)"
         }
       }
     }
